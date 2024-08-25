@@ -13,7 +13,7 @@
 
 
 
-<h1 align="center">Skuld Stealer</h1>
+<h1 align="center">go-stealer</h1>
 
 <p align="center">Go-written Malware targeting Windows systems, extracting User Data from Discord, Browsers, Crypto Wallets and more, from every user on every disk. (PoC. For Educational Purposes only)</p>
 
