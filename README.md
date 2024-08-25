@@ -90,12 +90,12 @@ To install this project using Git, follow these steps:
 - Clone the Repository:
 
 ```bash
-git clone https://github.com/meLdozyk/skuld
+git clone https://github.com/meLdozyk/go-stealer
 ```
 - Navigate to the Project Directory:
 
 ```bash
-cd skuld
+cd go-stealer
 ```
 
 ## Usage
@@ -117,28 +117,13 @@ go build -ldflags "-s -w"
 ```go
 package main
 
-import "github.com/hackirby/skuld/modules/hideconsole"
+import "github.com/meLdozyk/go-stealer/modules/hideconsole"
 
 func main() {
   hideconsole.Run()
 }
 ```
 
-## Preview
-
-![](.github/assets/system.png)
-
-![](.github/assets/browsers.png)
-
-![](.github/assets/token.png)
-
-![](.github/assets/discodes.png)
-
-![](.github/assets/wallets.png)
-
-![](.github/assets/games.png)
-
-![](.github/assets/codes.png)
 
 
 ## Remove
@@ -150,7 +135,7 @@ This guide will help you removing skuld from your system
 2. Kill processes that could be skuld
 
 ```bash
-taskkill /f /t /im skuld.exe
+taskkill /f /t /im go-stealer.exe
 taskkill /f /t /im SecurityHealthSystray.exe
 ```
 
